@@ -1,8 +1,58 @@
-.App {
-  font-family: "Times New Roman", Times, serif;
+@font-face {
+  font-family: "Tiempos Headline";
+  src: local("TiemposHeadline-Regular"),
+    url("./fonts/TiemposHeadline-Regular.otf") format("opentype");
 }
 
-.Header {
-  text-align: center;
+.App {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: min-content auto auto;
+  grid-template-areas:
+    "NavBar"
+    "Introduction";
+}
+
+.NavBar {
+  font-family: "Tiempos Headline";
+  text-align: left;
+  padding-left: 3%;
   color: #444;
+}
+
+.Introduction {
+  font-family: "Tiempos Headline";
+  color: #444;
+  /* border: #444 1px solid; */
+  padding: 10%;
+}
+
+.ProfileImage img {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 18%;
+  right: 10%;
+}
+
+.Introduction p {
+  font-size: 1rem;
+}
+
+.Introduction h1 {
+  font-size: 3rem;
+}
+
+.Introduction h2 {
+  font-size: 2rem;
+}
+
+.Introduction h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin-top: 1rem; */
+  /* padding-right: 50%; */
+  font-size: 1.2rem;
+  font-weight: normal;
 }
