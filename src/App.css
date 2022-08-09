@@ -14,7 +14,7 @@
 }
 
 .NavBar {
-  font-family: "Tiempos Headline";
+  font-family: Tiempos Headline;
   text-align: left;
   padding-left: 5%;
   background-color: #f6f1eb;
@@ -22,36 +22,42 @@
 }
 
 .Introduction {
-  font-family: "Tiempos Headline";
+  font-family: Tiempos Headline;
   color: #444;
   padding: 10%;
 }
 
 .ProfileImage img {
-  width: 30rem;
-  height: 30rem;
+  width: 25rem;
+  height: 25rem;
   object-fit: cover;
   position: absolute;
-  top: 18%;
+  top: 20%;
   right: 10%;
   border: #444 solid 1px;
   box-shadow: 8px 8px #444;
 }
 
 .Introduction p {
-  font-size: 1rem;
+  font-size: 1.1rem;
+  font-family: Helvetica;
+  margin-bottom: 2rem;
 }
 
 .Introduction h1 {
-  font-size: 3rem;
+  font-size: 2rem;
+  margin: 0;
 }
 
 .Introduction h2 {
   font-size: 2rem;
+  margin-top: 1rem;
 }
 
 .Introduction h3 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: normal;
+  margin-top: 1rem;
+  padding-right: 50%;
 }
