@@ -4,6 +4,16 @@
     url("./fonts/TiemposHeadline-Regular.otf") format("opentype");
 }
 
+@keyframes slide-up-fade {
+  0% {
+    opacity: 0;
+    top: 100px;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .App {
   display: grid;
   grid-template-columns: 100%;
@@ -19,6 +29,7 @@
   padding-left: 5%;
   background-color: #f6f1eb;
   color: #444;
+  animation: slide-up-fade 1s;
 }
 
 .Introduction {
@@ -36,22 +47,26 @@
   right: 10%;
   border: #444 solid 1px;
   box-shadow: 8px 8px #444;
+  animation: slide-up-fade 1.5s;
 }
 
 .Introduction p {
   font-size: 1.1rem;
   font-family: Helvetica;
   margin-bottom: 2rem;
+  animation: slide-up-fade 1.5s;
 }
 
 .Introduction h1 {
   font-size: 2rem;
   margin: 0;
+  animation: slide-up-fade 2s;
 }
 
 .Introduction h2 {
   font-size: 2rem;
   margin-top: 1rem;
+  animation: slide-up-fade 2.5s;
 }
 
 .Introduction h3 {
@@ -60,4 +75,5 @@
   font-weight: normal;
   margin-top: 1rem;
   padding-right: 50%;
+  animation: slide-up-fade 3s;
 }
