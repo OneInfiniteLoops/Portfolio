@@ -32,6 +32,27 @@
   animation: slide-up-fade 1s;
 }
 
+.NavLinks {
+  font-family: Helvetica;
+  font-size: 1rem;
+  text-align: right;
+  padding-right: 5%;
+}
+
+.EachNavBarLink:link {
+  padding-right: 2rem;
+  text-decoration: none;
+  color: #444;
+}
+
+.EachNavBarLink:visited {
+  color: #444;
+}
+
+.EachNavBarLink:hover {
+  color: rgb(136, 136, 136);
+}
+
 .Introduction {
   font-family: Tiempos Headline;
   color: #444;
