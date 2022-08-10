@@ -2,7 +2,7 @@ import profile from "../images/profile.jpg";
 
 const ProfileImage = () => {
   return (
-    <div className="ProfileImage">
+    <div id="about">
       <img src={profile} alt="profile" />
     </div>
   );
