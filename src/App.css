@@ -70,11 +70,11 @@ html {
 }
 
 .ProfileImage img {
-  width: 25rem;
-  height: 25rem;
+  width: 25vw;
+  height: 25vw;
   object-fit: cover;
   position: absolute;
-  top: 25%;
+  top: 30%;
   right: 10%;
   border: #444 solid 1px;
   box-shadow: 8px 8px #444;
