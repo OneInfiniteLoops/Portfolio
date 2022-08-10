@@ -143,6 +143,7 @@ html {
 
 #contact {
   font-family: Tiempos Headline;
+  background-color: #fffcf7;
   color: #444;
   text-align: center;
   margin: 10%;
@@ -169,10 +170,9 @@ html {
 .Footer {
   font-family: Helvetica;
   color: #444;
-  text-align: center;
+  text-align: right;
   font-size: small;
   border-top: #444 solid 1px;
-  padding-top: 1rem;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
