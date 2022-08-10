@@ -97,24 +97,24 @@
   animation: slide-up-fade 3s;
 }
 
-#About {
+#about {
   font-family: Helvetica;
   line-height: 2;
   color: #444;
-  padding: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
   animation: slide-up-fade 3s;
   text-align: justify;
-  border-top: #444 solid 1px;
 }
 
-#About h1 {
+#about h1 {
   font-size: 2rem;
   font-family: Tiempos Headline;
   margin: 0;
   animation: slide-up-fade 3s;
 }
 
-#About h2 {
+#about h2 {
   font-size: 1.5rem;
   font-family: Tiempos Headline;
   margin: 0;
