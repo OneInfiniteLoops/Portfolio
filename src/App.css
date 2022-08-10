@@ -7,7 +7,7 @@
 @keyframes slide-up-fade {
   0% {
     opacity: 0;
-    top: 100px;
+    top: -100px;
   }
   100% {
     opacity: 1;
@@ -27,9 +27,14 @@
   font-family: Tiempos Headline;
   text-align: left;
   padding-left: 5%;
-  background-color: #f6f1eb;
+  background-color: rgb(246, 241, 235, 0.95);
   color: #444;
   animation: slide-up-fade 1s;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-bottom: 1rem;
 }
 
 .NavLinks {
@@ -130,6 +135,31 @@
 #Practices-List ul {
   column-count: 2;
   animation: slide-up-fade 3s;
+}
+
+#contact {
+  font-family: Tiempos Headline;
+  color: #444;
+  text-align: center;
+  margin: 10%;
+  padding: 5%;
+  border: #444 solid 1px;
+  animation: slide-up-fade 3s;
+}
+
+#contact p {
+  font-family: Helvetica;
+}
+
+.Social-Icons {
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem;
+  animation: slide-up-fade 3s;
+}
+
+.Social-Icons:hover {
+  opacity: 50%;
 }
 
 .Footer {
