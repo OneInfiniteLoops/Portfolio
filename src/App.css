@@ -127,6 +127,11 @@
   animation: slide-up-fade 3s;
 }
 
+#Practices-List ul {
+  column-count: 2;
+  animation: slide-up-fade 3s;
+}
+
 .Footer {
   font-family: Helvetica;
   color: #444;
