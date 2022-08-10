@@ -7,7 +7,7 @@
 @keyframes slide-up-fade {
   0% {
     opacity: 0;
-    top: -100px;
+    top: -10vh;
   }
   100% {
     opacity: 1;
@@ -21,22 +21,52 @@ html {
 .App {
   height: 100%;
   width: 100%;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-@media only screen and (min-width: 600px) {
+@media screen and (min-width: 720px) {
   .App {
     font-size: large;
+  }
+
+  .Introduction {
+    font-family: Tiempos Headline;
+    color: #444;
+    position: relative;
+    top: -25vh;
+    margin-bottom: 0;
+  }
+
+  .Introduction h1 {
+    padding-right: 40%;
+  }
+
+  .Introduction h2 {
+    padding-right: 40%;
+  }
+
+  .Introduction p {
+    padding-right: 40%;
+  }
+
+  #Profile-Img {
+    position: absolute;
+    top: 0vh;
+    right: 10vw;
+  }
+
+  #about {
+    margin-top: 10%;
+    padding-top: 0;
   }
 }
 
 .NavBar {
   font-family: Tiempos Headline;
   text-align: center;
-  background-color: rgb(246, 241, 235, 0.95);
+  background-color: rgb(246, 241, 235, 0.8);
   color: #444;
   animation: slide-up-fade 1s;
   z-index: 1;
@@ -44,6 +74,7 @@ html {
   top: 0;
   width: 100%;
   padding-bottom: 1rem;
+  backdrop-filter: blur(10px);
 }
 
 .NavLinks {
@@ -70,14 +101,12 @@ html {
   font-family: Tiempos Headline;
   color: #444;
   line-height: 1.5;
-  margin-top: 30%;
-  margin-bottom: 10%;
-  padding-top: 20%;
+  margin-top: 35vw;
 }
 
-#about img {
-  width: 60vw;
-  height: 60vw;
+#Profile-Img img {
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   border: #444 solid 1px;
   box-shadow: 8px 8px #444;
@@ -85,8 +114,7 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 60%;
-  margin-bottom: 2rem;
+  margin-bottom: 35%;
 }
 
 .Introduction p {
@@ -100,14 +128,12 @@ html {
 .Introduction h1 {
   margin-left: 10%;
   margin-right: 10%;
-  font-size: 1.5rem;
   animation: slide-up-fade 2s;
 }
 
 .Introduction h2 {
   margin-left: 10%;
   margin-right: 10%;
-  font-size: 1.1rem;
   animation: slide-up-fade 2.5s;
 }
 
@@ -116,12 +142,11 @@ html {
   margin-right: 10%;
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem;
   font-weight: normal;
   animation: slide-up-fade 3s;
 }
 
-#aboutme {
+#about {
   font-family: Helvetica;
   line-height: 1.5;
   color: #444;
@@ -131,14 +156,14 @@ html {
   text-align: justify;
 }
 
-#aboutme h1 {
+#about h1 {
   font-size: 2rem;
   font-family: Tiempos Headline;
   margin: 0;
   animation: slide-up-fade 3s;
 }
 
-#aboutme h2 {
+#about h2 {
   font-size: 1.5rem;
   font-family: Tiempos Headline;
   margin: 0;
