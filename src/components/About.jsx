@@ -34,6 +34,7 @@ const About = () => {
             <li>Test-Driven Development (TDD)</li>
             <li>Agile Methodologies</li>
             <li>Pair Programming</li>
+            <li>Version Control with Git & GitHub</li>
           </ul>
         </div>
       </div>
