@@ -17,7 +17,7 @@ const About = () => {
           <h2> Here are the technologies I've worked with:</h2>
           <ul>
             <li>JavaScript (ES6)</li>
-            <li>Node.JS</li>
+            <li>Node.js</li>
             <li>Express.js</li>
             <li>React</li>
             <li>PostgreSQL</li>
