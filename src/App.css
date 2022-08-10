@@ -57,6 +57,7 @@
   font-family: Tiempos Headline;
   color: #444;
   padding: 10%;
+  line-height: 2;
 }
 
 .ProfileImage img {
@@ -64,7 +65,7 @@
   height: 25rem;
   object-fit: cover;
   position: absolute;
-  top: 20%;
+  top: 30%;
   right: 10%;
   border: #444 solid 1px;
   box-shadow: 8px 8px #444;
@@ -74,19 +75,17 @@
 .Introduction p {
   font-size: 1.1rem;
   font-family: Helvetica;
-  margin-bottom: 2rem;
+  text-align: justify;
   animation: slide-up-fade 1.5s;
 }
 
 .Introduction h1 {
   font-size: 2rem;
-  margin: 0;
   animation: slide-up-fade 2s;
 }
 
 .Introduction h2 {
   font-size: 2rem;
-  margin-top: 1rem;
   animation: slide-up-fade 2.5s;
 }
 
@@ -94,9 +93,27 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.1rem;
   font-weight: normal;
-  margin-top: 1rem;
   padding-right: 50%;
   animation: slide-up-fade 3s;
+}
+
+#About {
+  font-family: Helvetica;
+  line-height: 2;
+  color: #444;
+  padding: 10%;
+  animation: slide-up-fade 3s;
+  text-align: justify;
+}
+
+#About h1 {
+  font-size: 2rem;
+  font-family: Tiempos Headline;
+  margin: 0;
+  animation: slide-up-fade 3s;
+}
+#About p {
+  margin-right: 20%;
 }
 
 .Footer {
