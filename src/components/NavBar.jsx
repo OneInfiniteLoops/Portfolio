@@ -5,8 +5,8 @@ const NavBar = () => {
     <div className="NavBar">
       <h1>/james.</h1>
       <nav className="NavLinks">
-        <Link to="/#skills" className="EachNavBarLink">
-          SKILLS & EXPERIENCE
+        <Link to="/#about" className="EachNavBarLink">
+          ABOUT
         </Link>
         <Link to="/#work" className="EachNavBarLink">
           WORK
