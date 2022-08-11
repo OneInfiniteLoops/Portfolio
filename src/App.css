@@ -134,7 +134,7 @@ html {
 .Introduction h2 {
   margin-left: 10%;
   margin-right: 10%;
-  animation: slide-up-fade 2.5s;
+  animation: slide-up-fade 2s;
 }
 
 .Introduction h3 {
@@ -143,7 +143,7 @@ html {
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
-  animation: slide-up-fade 3s;
+  animation: slide-up-fade 2s;
 }
 
 #about {
@@ -152,31 +152,31 @@ html {
   color: #444;
   padding-left: 10%;
   padding-right: 10%;
-  animation: slide-up-fade 3s;
+  animation: slide-up-fade 2s;
   text-align: justify;
 }
 
 #about h1 {
   font-size: 2rem;
   font-family: Tiempos Headline;
-  animation: slide-up-fade 3s;
+  animation: slide-up-fade 2s;
 }
 
 #about h2 {
   font-size: 1.5rem;
   font-family: Tiempos Headline;
   margin: 0;
-  animation: slide-up-fade 3s;
+  animation: slide-up-fade 2s;
 }
 
 #Tech-List ul {
   column-count: 2;
-  animation: slide-up-fade 3s;
+  animation: slide-up-fade 2s;
 }
 
 #Practices-List ul {
   column-count: 2;
-  animation: slide-up-fade 3s;
+  animation: slide-up-fade 2s;
 }
 
 #work {
@@ -186,7 +186,7 @@ html {
   margin-top: 10%;
   padding-left: 10%;
   padding-right: 10%;
-  animation: slide-up-fade 3s;
+  animation: slide-up-fade 2s;
   text-align: justify;
 }
 
@@ -199,7 +199,7 @@ html {
   text-align: center;
   margin: 5%;
   font-family: Tiempos Headline;
-  animation: slide-up-fade 3s;
+  animation: slide-up-fade 2s;
 }
 
 .portfolio-card {
@@ -208,7 +208,7 @@ html {
   border: #444 solid 1px;
   background-color: #fffcf7;
   padding: 5%;
-  animation: slide-up-fade 3s;
+  animation: slide-up-fade 2s;
 }
 
 #contact {
@@ -219,7 +219,7 @@ html {
   margin: 10%;
   padding: 5%;
   border: #444 solid 1px;
-  animation: slide-up-fade 3s;
+  animation: slide-up-fade 2s;
 }
 
 #contact p {
@@ -230,7 +230,7 @@ html {
   width: 3rem;
   height: 3rem;
   margin: 1rem;
-  animation: slide-up-fade 3s;
+  animation: slide-up-fade 2s;
 }
 
 .Social-Icons:hover {
