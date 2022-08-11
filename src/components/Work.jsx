@@ -4,28 +4,28 @@ import PortfolioCard from "./PortfolioCard";
 const Work = () => {
   const [portfolioList, setPortfolioList] = useState([
     {
-      name: "Portfolio Card1",
+      name: "News-API",
       type: "Back-End",
       description: "This is a portfolio card",
       img_url: "https://via.placeholder.com/150",
-      liveDemoLink: "https://www.google.com",
-      githubLink: "https://www.google.com",
+      liveDemoLink: "https://news-space.herokuapp.com/",
+      githubLink: "https://github.com/OneInfiniteLoops/News-API",
     },
     {
-      name: "Portfolio Card2",
+      name: "NewsSpace",
       type: "Front-End",
       description: "This is a portfolio card",
       img_url: "https://via.placeholder.com/150",
-      liveDemoLink: "https://www.google.com",
-      githubLink: "https://www.google.com",
+      liveDemoLink: "https://newsspace-project.netlify.app/",
+      githubLink: "https://github.com/OneInfiniteLoops/newsspace",
     },
     {
-      name: "Portfolio Card3",
+      name: "StudyOut",
       type: "Mobile",
       description: "This is a portfolio card",
       img_url: "https://via.placeholder.com/150",
-      liveDemoLink: "https://www.google.com",
-      githubLink: "https://www.google.com",
+      liveDemoLink: "To Be Updated",
+      githubLink: "https://github.com/OneInfiniteLoops/studyout",
     },
   ]);
 
