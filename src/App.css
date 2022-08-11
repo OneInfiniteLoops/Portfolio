@@ -205,8 +205,8 @@ html {
 }
 
 .project-screenshot {
-  height: 270px;
-  width: 270px;
+  height: 250px;
+  width: 250px;
   object-fit: cover;
 }
 
@@ -221,7 +221,6 @@ html {
   list-style: none;
   text-align: center;
   margin-bottom: 5%;
-  height: 40rem;
   font-size: smaller;
   /* border: #444 solid 1px; */
   background-color: #fffcf7;
