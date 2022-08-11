@@ -159,7 +159,6 @@ html {
 #about h1 {
   font-size: 2rem;
   font-family: Tiempos Headline;
-  margin: 0;
   animation: slide-up-fade 3s;
 }
 
@@ -177,6 +176,22 @@ html {
 
 #Practices-List ul {
   column-count: 2;
+  animation: slide-up-fade 3s;
+}
+
+#work {
+  font-family: Helvetica;
+  line-height: 1.5;
+  color: #444;
+  padding-left: 10%;
+  padding-right: 10%;
+  animation: slide-up-fade 3s;
+  text-align: justify;
+}
+
+#work h1 {
+  font-size: 2rem;
+  font-family: Tiempos Headline;
   animation: slide-up-fade 3s;
 }
 
