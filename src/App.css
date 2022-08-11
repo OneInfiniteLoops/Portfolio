@@ -200,6 +200,10 @@ html {
   text-align: justify;
 }
 
+#work ul {
+  padding-left: 0%; /* removes default padding */
+}
+
 #work h1 {
   font-size: 2rem;
   text-align: center;
