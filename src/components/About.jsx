@@ -11,9 +11,9 @@ const About = () => {
       <p>
         At the bootcamp, I gained hands-on experience in developing web and
         mobile applications, various key skills, and industry best practices
-        such as Test-Driven Development (TDD). I also volunteered to present a
-        live-streamed lightning talk which has reinforced my passion for
-        technology – and its impact on society.
+        such as Test-Driven Development (TDD). I also had the opportunity to
+        present a live-streamed lightning talk which has reinforced my passion
+        for technology – and its impact on society.
       </p>
       <br></br>
       <div className="About-Lists">
@@ -33,7 +33,7 @@ const About = () => {
           </ul>
         </div>
         <div id="Practices-List">
-          <h2>Industry Best Practices:</h2>
+          <h2>Using Industry Best Practices:</h2>
           <ul>
             <li>Test-Driven Development (TDD)</li>
             <li>Agile Methodologies</li>
