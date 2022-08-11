@@ -214,6 +214,9 @@ html {
 .portfolio-card {
   list-style: none;
   text-align: center;
+  margin-bottom: 5%;
+  height: 40rem;
+  font-size: smaller;
   /* border: #444 solid 1px; */
   background-color: #fffcf7;
   padding: 5%;
