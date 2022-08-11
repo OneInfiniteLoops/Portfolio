@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div id="about">
-      <h1>About Me</h1>
+      <h1>About Me.</h1>
       <p>
         As a long-time tech enthusiast who loves learning about the latest
         innovations, I embarked on my journey in April 2022 to become a
