@@ -26,7 +26,7 @@ html {
   align-items: center;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 960px) {
   .App {
     font-size: large;
   }
@@ -78,6 +78,10 @@ html {
 
   #work ul {
     column-count: 3;
+  }
+
+  .portfolio-card {
+    height: 45rem;
   }
 }
 
@@ -212,8 +216,8 @@ html {
 }
 
 .project-screenshot {
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   object-fit: cover;
 }
 
@@ -233,6 +237,17 @@ html {
   background-color: #fffcf7;
   padding: 5%;
   animation: slide-up-fade 2s;
+}
+
+.project-social-icons {
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem;
+  animation: slide-up-fade 2s;
+}
+
+.project-social-icons:hover {
+  opacity: 50%;
 }
 
 #contact {
