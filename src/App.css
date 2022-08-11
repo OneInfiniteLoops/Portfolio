@@ -204,6 +204,12 @@ html {
   padding-left: 0%; /* removes default padding */
 }
 
+.project-screenshot {
+  height: 270px;
+  width: 270px;
+  object-fit: cover;
+}
+
 #work h1 {
   font-size: 2rem;
   text-align: center;
