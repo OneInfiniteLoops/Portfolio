@@ -183,7 +183,9 @@ html {
   font-family: Helvetica;
   line-height: 1.5;
   color: #444;
-  padding: 10%;
+  margin-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
   animation: slide-up-fade 3s;
   text-align: justify;
 }
