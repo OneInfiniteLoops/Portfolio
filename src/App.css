@@ -62,6 +62,14 @@ html {
     padding-top: 0;
   }
 
+  #Tech-List ul {
+    column-count: 2;
+  }
+
+  #Practices-List ul {
+    column-count: 2;
+  }
+
   #work h1 {
     font-size: 2rem;
     font-family: Tiempos Headline;
@@ -180,12 +188,10 @@ html {
 }
 
 #Tech-List ul {
-  column-count: 2;
   animation: slide-up-fade 2s;
 }
 
 #Practices-List ul {
-  column-count: 2;
   animation: slide-up-fade 2s;
 }
 
