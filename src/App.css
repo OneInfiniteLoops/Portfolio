@@ -61,6 +61,16 @@ html {
     margin-top: 10%;
     padding-top: 0;
   }
+
+  #work h1 {
+    font-size: 2rem;
+    font-family: Tiempos Headline;
+    animation: slide-up-fade 2s;
+  }
+
+  #work ul {
+    column-count: 3;
+  }
 }
 
 .NavBar {
@@ -184,20 +194,15 @@ html {
   line-height: 1.5;
   color: #444;
   margin-top: 10%;
-  padding-left: 10%;
-  padding-right: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
   animation: slide-up-fade 2s;
   text-align: justify;
-}
-
-#work ul {
-  column-count: 3;
 }
 
 #work h1 {
   font-size: 2rem;
   text-align: center;
-  margin: 5%;
   font-family: Tiempos Headline;
   animation: slide-up-fade 2s;
 }
