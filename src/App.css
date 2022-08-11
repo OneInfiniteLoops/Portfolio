@@ -182,6 +182,7 @@ html {
 
 #about h2 {
   font-size: 1.5rem;
+  text-align: left;
   font-family: Tiempos Headline;
   margin: 0;
   animation: slide-up-fade 2s;
