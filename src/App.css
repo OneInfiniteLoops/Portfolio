@@ -196,6 +196,8 @@ html {
 
 #work h1 {
   font-size: 2rem;
+  text-align: center;
+  margin: 5%;
   font-family: Tiempos Headline;
   animation: slide-up-fade 3s;
 }
