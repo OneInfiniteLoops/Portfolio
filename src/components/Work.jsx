@@ -21,7 +21,7 @@ const Work = () => {
     },
     {
       name: "StudyOut",
-      type: "Mobile",
+      type: "Mobile App",
       description: "This is a portfolio card",
       img_url: "https://via.placeholder.com/150",
       liveDemoLink: "To Be Updated",
@@ -31,7 +31,7 @@ const Work = () => {
 
   return (
     <div id="work">
-      <h1>Check out my projects</h1>
+      <h1>Check Out My Projects Here.</h1>
       <ul className="portfolio-list">
         {portfolioList.map((portfolioItem) => {
           return (
