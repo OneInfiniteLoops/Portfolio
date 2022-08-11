@@ -18,7 +18,7 @@ const About = () => {
       <br></br>
       <div className="About-Lists">
         <div id="Tech-List">
-          <h2> Here are the technologies I've worked with:</h2>
+          <h2> Here Are The Technologies I've Worked With:</h2>
           <ul>
             <li>JavaScript (ES6)</li>
             <li>Node.js</li>
