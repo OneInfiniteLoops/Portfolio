@@ -7,7 +7,7 @@
 @keyframes slide-up-fade {
   0% {
     opacity: 0;
-    top: -10vh;
+    top: -20vh;
   }
   100% {
     opacity: 1;
@@ -99,7 +99,7 @@ html {
   text-align: center;
   background-color: rgb(246, 241, 235, 0.8);
   color: #444;
-  animation: fade-in 1s;
+  animation: slide-up-fade 1s;
   z-index: 1;
   position: fixed;
   top: 0;
