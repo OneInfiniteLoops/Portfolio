@@ -7,7 +7,7 @@
 @keyframes slide-up-fade {
   0% {
     opacity: 0;
-    top: -20vh;
+    top: -10vh;
   }
   100% {
     opacity: 1;
