@@ -18,7 +18,7 @@ const About = () => {
       </p>
       <br></br>
       <div className="About-Lists">
-        <div id="Tech-List">
+        <div id="tech-list">
           <h2> Here Are The Technologies I've Worked With:</h2>
           <ul>
             <li>JavaScript (ES6)</li>
@@ -33,7 +33,7 @@ const About = () => {
             <li>HTML5 & CSS3</li>
           </ul>
         </div>
-        <div id="Practices-List">
+        <div id="practices-list">
           <h2>Using Industry Best Practices:</h2>
           <ul>
             <li>Test-Driven Development (TDD)</li>

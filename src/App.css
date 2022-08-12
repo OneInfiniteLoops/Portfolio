@@ -60,7 +60,7 @@ html {
     padding-right: 40%;
   }
 
-  #Profile-Img {
+  #profile-img {
     position: absolute;
     top: 0vh;
     right: 10vw;
@@ -71,11 +71,11 @@ html {
     padding-top: 0;
   }
 
-  #Tech-List ul {
+  #tech-list ul {
     column-count: 2;
   }
 
-  #Practices-List ul {
+  #practices-list ul {
     column-count: 2;
   }
 
@@ -135,7 +135,7 @@ html {
   margin-top: 35vw;
 }
 
-#Profile-Img img {
+#profile-img img {
   width: 300px;
   height: 300px;
   object-fit: cover;
@@ -202,11 +202,11 @@ html {
   animation: fade-in 2s;
 }
 
-#Tech-List ul {
+#tech-list ul {
   animation: fade-in 2s;
 }
 
-#Practices-List ul {
+#practices-list ul {
   animation: fade-in 2s;
 }
 
