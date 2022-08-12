@@ -30,7 +30,6 @@ const Work = () => {
       description:
         "Designed to help students find public study spaces more easily, the crowd-sourced application shows users nearby study spaces with key information such as specific features and suggested conditions of use. The mobile application was developed using React Native and Expo for the front-end, and Go/Golang and Fiber for the back-end. The area search feature and its map interface are powered by Google Places API and Google Maps respectively.",
       img_url: studyout_screenshot,
-      liveDemoLink: "To Be Updated",
       githubLink: "https://github.com/OneInfiniteLoops/studyout",
     },
   ]);
