@@ -12,18 +12,18 @@ const PortfolioCard = ({ portfolioItem }) => {
       <h1>{portfolioItem.name}</h1>
       <h2>{portfolioItem.type}</h2>
       <p>{portfolioItem.description}</p>
-      <a href={portfolioItem.liveDemoLink}>
-        <img
-          className="project-social-icons"
-          src={link_icon}
-          alt="link_icon"
-        ></img>
-      </a>
       <a href={portfolioItem.githubLink}>
         <img
           className="project-social-icons"
           src={github_icon}
           alt="github_icon"
+        ></img>
+      </a>
+      <a href={portfolioItem.liveDemoLink}>
+        <img
+          className="project-social-icons"
+          src={link_icon}
+          alt="link_icon"
         ></img>
       </a>
     </li>
