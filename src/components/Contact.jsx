@@ -7,8 +7,8 @@ const Contact = () => {
     <div id="contact">
       <h1>Get In Touch.</h1>
       <p>
-        Please feel free to drop me an email. Alternatively, you can find me on
-        LinkedIn and GitHub.
+        Please feel free to drop me an email at skjyeung@gmail.com.
+        Alternatively, you can connect with me on LinkedIn and GitHub.
       </p>
       <a href="mailto:skjyeung@gmail.com">
         <img className="Social-Icons" src={email} alt="email_icon"></img>
