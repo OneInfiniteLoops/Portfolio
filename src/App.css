@@ -239,14 +239,14 @@ html {
   animation: slide-up-fade 2s;
 }
 
-.project-social-icons {
+.project-link-icons {
   width: 3rem;
   height: 3rem;
   margin: 1rem;
   animation: slide-up-fade 2s;
 }
 
-.project-social-icons:hover {
+.project-link-icons:hover {
   opacity: 50%;
 }
 

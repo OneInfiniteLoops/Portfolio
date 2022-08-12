@@ -15,7 +15,7 @@ const PortfolioCard = ({ portfolioItem }) => {
       {portfolioItem.githubLink ? (
         <a href={portfolioItem.githubLink}>
           <img
-            className="project-social-icons"
+            className="project-link-icons"
             src={github_icon}
             alt="github_icon"
           ></img>
@@ -25,7 +25,7 @@ const PortfolioCard = ({ portfolioItem }) => {
       {portfolioItem.liveDemoLink ? (
         <a href={portfolioItem.liveDemoLink}>
           <img
-            className="project-social-icons"
+            className="project-link-icons"
             src={link_icon}
             alt="link_icon"
           ></img>
