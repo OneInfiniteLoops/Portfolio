@@ -12,8 +12,18 @@ const PortfolioCard = ({ portfolioItem }) => {
       <h1>{portfolioItem.name}</h1>
       <h2>{portfolioItem.type}</h2>
       <p>{portfolioItem.description}</p>
-      {portfolioItem.githubLink ? (
-        <a href={portfolioItem.githubLink}>
+      {portfolioItem.githubLink1 ? (
+        <a href={portfolioItem.githubLink1}>
+          <img
+            className="project-link-icons"
+            src={github_icon}
+            alt="github_icon"
+          ></img>
+        </a>
+      ) : null}
+
+      {portfolioItem.githubLink2 ? (
+        <a href={portfolioItem.githubLink2}>
           <img
             className="project-link-icons"
             src={github_icon}
