@@ -250,6 +250,10 @@ html {
   animation: fade-in 2s;
 }
 
+.portfolio-card h2 {
+  font-size: 1rem;
+}
+
 .project-link-icons {
   width: 3rem;
   height: 3rem;
