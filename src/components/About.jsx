@@ -40,7 +40,7 @@ const About = () => {
           <h2>Using Industry Best Practices:</h2>
           <ul>
             <li>Test-Driven Development (TDD)</li>
-            <li>Agile Methodologies</li>
+            <li>Agile Methodologies (e.g. Daily Stand-Up & Kanban)</li>
             <li>Pair Programming</li>
             <li>Version Control with Git & GitHub</li>
           </ul>
