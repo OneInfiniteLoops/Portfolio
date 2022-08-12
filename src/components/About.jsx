@@ -28,9 +28,12 @@ const About = () => {
             <li>PostgreSQL</li>
             <li>Jest</li>
             <li>React Native</li>
+            <li>HTML5 & CSS3</li>
             <li>Git Version Control</li>
             <li>Heroku</li>
-            <li>HTML5 & CSS3</li>
+            <li>Go/Golang</li>
+            <li>Fiber</li>
+            <li>GORM (ORM for Go)</li>
           </ul>
         </div>
         <div id="practices-list">
