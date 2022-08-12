@@ -11,7 +11,6 @@ const PortfolioCard = ({ portfolioItem }) => {
       />
       <h1>{portfolioItem.name}</h1>
       <h2>{portfolioItem.type}</h2>
-      <p>{portfolioItem.description}</p>
       {portfolioItem.githubLink1 ? (
         <a href={portfolioItem.githubLink1}>
           <img
@@ -41,6 +40,7 @@ const PortfolioCard = ({ portfolioItem }) => {
           ></img>
         </a>
       ) : null}
+      <p>{portfolioItem.description}</p>
     </li>
   );
 };
