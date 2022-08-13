@@ -13,8 +13,15 @@ const About = () => {
         Through the bootcamp, I gained hands-on experience in developing web and
         mobile applications, learnt various key skills, and applied industry
         best practices such as Test-Driven Development (TDD). I also had the
-        opportunity to present a live-streamed lightning talk which has
-        reinforced my passion for technology – and its impact on society.
+        opportunity to deliver a live-streamed{" "}
+        <a
+          className="video-link"
+          href="https://www.youtube.com/watch?v=1e8iFgSoU28&t=2796s"
+        >
+          presentation
+        </a>{" "}
+        on the topic of super-apps which has further reinforced my passion to
+        learn more about technology and its role in society.
       </p>
       <br></br>
       <div className="About-Lists">
