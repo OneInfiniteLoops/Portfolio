@@ -20,8 +20,8 @@ const About = () => {
         >
           presentation
         </a>{" "}
-        on the topic of super-apps which has further reinforced my passion to
-        learn more about technology and its role in society.
+        on the topic of super-apps which has further inspired me to learn more
+        about technology and its role in society.
       </p>
       <br></br>
       <div className="About-Lists">
