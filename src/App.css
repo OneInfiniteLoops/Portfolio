@@ -79,6 +79,10 @@ html {
     column-count: 2;
   }
 
+  #work {
+    background-color: #fffcf7;
+  }
+
   #work h1 {
     font-size: 2rem;
     font-family: Tiempos Headline;
@@ -231,7 +235,6 @@ html {
   padding-right: 10%;
   animation: fade-in 2s;
   text-align: justify;
-  background-color: #fffcf7;
 }
 
 #work ul {
