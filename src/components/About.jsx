@@ -28,19 +28,14 @@ const About = () => {
         <div id="tech-list">
           <h2> Here Are The Technologies I've Worked With:</h2>
           <ul>
-            <li>JavaScript (ES6)</li>
-            <li>Node.js</li>
+            <li>Node.js (JavaScript ES6)</li>
+            <li>React / React Native</li>
             <li>Express.js</li>
-            <li>React</li>
             <li>PostgreSQL</li>
             <li>Jest</li>
-            <li>React Native</li>
             <li>HTML5 & CSS3</li>
-            <li>Git Version Control</li>
             <li>Heroku</li>
-            <li>Go/Golang</li>
-            <li>Fiber</li>
-            <li>GORM (ORM for Go)</li>
+            <li>Go / Golang</li>
           </ul>
         </div>
         <div id="practices-list">
@@ -48,8 +43,8 @@ const About = () => {
           <ul>
             <li>Test-Driven Development (TDD)</li>
             <li>Agile Methodologies (e.g. Daily Stand-Up & Kanban)</li>
-            <li>Pair Programming</li>
             <li>Version Control with Git & GitHub</li>
+            <li>Pair Programming</li>
           </ul>
         </div>
       </div>
