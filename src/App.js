@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
+import { HashLink as Link } from "react-router-hash-link";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
         <Introduction />
         <About />
         <Work />
+        <Link to="#Top" smooth id="back-to-top">
+          Back to Top.
+        </Link>
         <Contact />
         <Footer />
       </div>
