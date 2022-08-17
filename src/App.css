@@ -280,6 +280,21 @@ html {
   opacity: 50%;
 }
 
+#back-to-top {
+  padding: 1rem;
+  color: #444;
+  justify-content: center;
+  display: flex;
+}
+
+#back-to-top:hover {
+  color: rgb(136, 136, 136);
+}
+
+#back-to-top:visited {
+  color: #444;
+}
+
 #contact {
   font-family: Tiempos Headline;
   background-color: #fffcf7;
