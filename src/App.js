@@ -16,7 +16,7 @@ function App() {
         <Introduction />
         <About />
         <Work />
-        <Link to="#Top" smooth id="back-to-top">
+        <Link to="#top" smooth id="back-to-top">
           Back to Top.
         </Link>
         <Contact />
