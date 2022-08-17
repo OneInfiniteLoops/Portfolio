@@ -29,7 +29,7 @@ const About = () => {
           <h2> Here Are The Technologies I've Worked With:</h2>
           <ul>
             <li>Node.js (JavaScript ES6)</li>
-            <li>React / React Native</li>
+            <li>React & React Native</li>
             <li>Express.js</li>
             <li>PostgreSQL</li>
             <li>Jest</li>
