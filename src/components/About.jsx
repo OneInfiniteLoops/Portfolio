@@ -3,10 +3,10 @@ const About = () => {
     <div id="about">
       <h1>About Me.</h1>
       <p>
-        As a long-time tech enthusiast who has always been captivated by digital
-        innovations, I decided that beyond being an admirer of tech I wanted to
+        As a long-time tech enthusiast who has always been mesmerised by digital
+        innovations, I realised that beyond being an admirer of tech I wanted to
         also get involved and be a part of the digital revolution. In April
-        2022, I embarked on my journey to become a full-stack developer at the
+        2022, I embarked on my journey to become a software developer at the
         Northcoders’ coding bootcamp in Manchester, UK.
       </p>
       <p>
