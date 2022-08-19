@@ -79,20 +79,20 @@ html {
     column-count: 2;
   }
 
-  .work {
+  #work {
     background-color: #fffcf7;
   }
 
-  .work h1 {
+  #work h1 {
     font-family: Tiempos Headline;
     animation: fade-in 2s;
   }
 
-  .work ul {
+  #work ul {
     column-count: 4;
   }
 
-  .portfolio-card h1 {
+  #portfolio-card h1 {
     font-family: Tiempos Headline;
     font-size: 1rem;
   }
@@ -226,7 +226,7 @@ html {
   animation: fade-in 2s;
 }
 
-.work {
+#work {
   font-family: Helvetica;
   line-height: 1.5;
   color: #444;
@@ -237,7 +237,7 @@ html {
   text-align: justify;
 }
 
-.work ul {
+#work ul {
   padding-left: 0%; /* removes default padding */
 }
 
@@ -247,18 +247,18 @@ html {
   object-fit: cover;
 }
 
-.work h1 {
+#work h1 {
   font-size: 2rem;
   text-align: center;
   font-family: Tiempos Headline;
   animation: fade-in 2s;
 }
 
-.portfolio-card h1 {
+#portfolio-card h1 {
   font-size: 1.25rem;
 }
 
-.portfolio-card {
+#portfolio-card {
   list-style: none;
   text-align: center;
   font-size: 1rem;
@@ -267,7 +267,7 @@ html {
   animation: fade-in 2s;
 }
 
-.portfolio-card h2 {
+#portfolio-card h2 {
   font-size: 1rem;
 }
 
