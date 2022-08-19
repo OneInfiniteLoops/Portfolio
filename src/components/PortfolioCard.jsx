@@ -3,7 +3,7 @@ import link_icon from "../images/link_icon.png";
 
 const PortfolioCard = ({ portfolioItem }) => {
   return (
-    <li className="portfolio-card">
+    <li id="portfolio-card">
       <img
         className="project-screenshot"
         src={portfolioItem.img_url}
