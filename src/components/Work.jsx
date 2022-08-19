@@ -5,7 +5,7 @@ import newsspace_screeen from "../images/newsspace_screenshot.jpg";
 import studyout_screenshot from "../images/studyout_screenshot.PNG";
 
 const Work = () => {
-  const [portfolioList, setPortfolioList] = useState([
+  const [portfolioList] = useState([
     {
       name: "News-API",
       type: "Back-End",
