@@ -259,10 +259,6 @@ html {
   animation: fade-in 2s;
 }
 
-#portfolio-card h1 {
-  font-size: 1.25rem;
-}
-
 #portfolio-card {
   list-style: none;
   text-align: center;
@@ -270,6 +266,10 @@ html {
   background-color: #fffcf7;
   padding: 2.5%;
   animation: fade-in 2s;
+}
+
+#portfolio-card h1 {
+  font-size: 1.25rem;
 }
 
 #portfolio-card h2 {
