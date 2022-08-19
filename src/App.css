@@ -90,6 +90,11 @@ html {
 
   #work ul {
     column-count: 4;
+    -webkit-column-count: 4;
+  }
+
+  #portfolio-card {
+    height: 47rem;
   }
 
   #portfolio-card h1 {
