@@ -265,6 +265,7 @@ html {
   font-size: 1rem;
   background-color: #fffcf7;
   padding: 2.5%;
+  margin-bottom: 2.5%;
   animation: fade-in 2s;
 }
 
