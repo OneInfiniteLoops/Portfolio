@@ -46,7 +46,7 @@ const Work = () => {
   ]);
 
   return (
-    <div className="work">
+    <div id="work">
       <h1>Check Out My Projects Here.</h1>
       <ul className="portfolio-list">
         {portfolioList.map((portfolioItem) => {
