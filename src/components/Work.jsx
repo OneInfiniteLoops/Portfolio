@@ -32,7 +32,7 @@ const Work = () => {
       githubLink1: "https://github.com/OneInfiniteLoops/studyout",
       githubLink2: "https://github.com/jaykeHarrison/studyout-api",
       description:
-        "Designed to help students find public study spaces more easily, the application shows the users study spaces nearby with crowd-sourced key information, such as specific amenities and suggested conditions of use. The mobile application was developed using React Native and Expo for the front-end, and Go/Golang and Fiber for the back-end. The area search feature and its map interface are powered by Google Places API and Google Maps respectively.",
+        "Designed to help students find public study spaces more easily, the app displays study spaces nearby to the user. It uses crowd-sourced data (e.g. amenities and suggested conditions of use). It is developed using React Native with Expo for the front-end and Go/Golang and Fiber for the back-end. The area search feature and its map interface are powered by Google Places API and Google Maps respectively.",
     },
     {
       name: "Portfolio Website",
